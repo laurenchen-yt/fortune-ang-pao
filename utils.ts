@@ -1,6 +1,6 @@
 
-// External libraries (assuming globally available via script tags in index.html)
-declare const confetti: any;
+import confetti from 'canvas-confetti';
+
 
 export const playConfetti = () => {
   const duration = 3 * 1000;
@@ -9,7 +9,7 @@ export const playConfetti = () => {
 
   const randomInRange = (min: number, max: number) => Math.random() * (max - min) + min;
 
-  const interval: any = setInterval(function() {
+  const interval: any = setInterval(function () {
     const timeLeft = animationEnd - Date.now();
 
     if (timeLeft <= 0) {
