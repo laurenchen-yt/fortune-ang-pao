@@ -43,7 +43,7 @@ npm run dev
    ```
 3. 進入 GitHub Repo -> **Settings** -> **Pages**。
 4. 確保 Source 設定為 **GitHub Actions**。
-5. 等待 Actions 執行完畢，即可在 `https://<USERNAME>.github.io/fortune-ang-pao/` 看到成果。
+5. 等待 Actions 執行完畢，即可在 `https://laurenchen-yt.github.io/fortune-ang-pao/` 看到成果。
 
 ## 🛠 技術堆疊
 
